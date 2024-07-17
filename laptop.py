@@ -188,4 +188,19 @@ elif select==4:
     else:
         print("INVALID")
 
-
+# calculator
+a=int(input("Enter the 1st number :\t"))
+b=int(input("Enter the 2st number: \t"))
+print("Select the option \n 1.Add \n 2.sub \n 3.Mul \n 4.Divide  ")
+c=int(input("Enter the option : \t")) 
+match c:
+    case 1:
+        print(f" Sum of two number: {a+b}")
+    case 2:
+        print(f"Sub of two number :{a-b}")
+    case 3:
+        print(f"Mul of two number :{a*b}")
+    case 4:
+        print(f" Divide is : {a/b}")
+    case _:
+        print("Invalid option")
