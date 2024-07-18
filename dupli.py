@@ -88,10 +88,13 @@ for user in users:
         print("Incorrect password or username")
         break
     
-      
+
+
+
+
     
 
-        
+        # product                  product name   quantatiy            total price:
 
 
 
