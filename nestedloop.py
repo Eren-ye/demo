@@ -18,9 +18,6 @@ for category in categoryData:
     for product in productData:
         if category['id']==product['category_id']:
             print('\t',product['name'])
-
-
-
 categories = [
     {'id': 1, 'name': 'Classic'},
     {'id': 2, 'name': 'Dirt'},
@@ -67,12 +64,6 @@ for product in sorted_products:
    if product['name'] == item:
        print(f" You have selected {product['name']} with a price tag of {product['price']}")
        rate=product['price']
-
-
-              
-
-    
-    
 
 quantatiy=int(input("Enter the quantatiy of the products : \t"))
 if quantatiy>0 and quantatiy<=10:
