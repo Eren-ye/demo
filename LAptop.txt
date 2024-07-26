@@ -1,0 +1,5 @@
+The phone is :Iphone
+THE DELIVERY CHARGES IS :RS2000 
+The cover is : PLASTIC
+The location is :KTM
+THE TOTAL PRICE IS :16923.076923076922

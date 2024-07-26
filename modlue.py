@@ -35,7 +35,7 @@ for i, good in enumerate(goods,start=1):
     print(f"{i}. {good['title']}")
     time=datetime.datetime.strptime(good['md'],'%Y-%m-%d')
     dur=datetime.datetime.now()-time
-    rem=dur.days/30
+    rem=dur.days/30 
     if rem<6:
         print(f"{good['title']} is new")
     elif rem>6 and rem<=12:

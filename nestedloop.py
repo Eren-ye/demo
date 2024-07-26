@@ -1,23 +1,23 @@
-categoryData=[
-    {'id':1,'name':'laptop'},
-    {'id':2,'name':'mobile'},
-    {'id':3,'name':'tablet'}
-]
+# categoryData=[
+#     {'id':1,'name':'laptop'},
+#     {'id':2,'name':'mobile'},
+#     {'id':3,'name':'tablet'}
+# ]
 
-productData=[
-    {'id':1,'name':'dell','category_id':1},
-    {'id':2,'name':'mac','category_id':1},
-    {'id':3,'name':'iphone','category_id':2},
-    {'id':4,'name':'samsung','category_id':2},
-    {'id':5,'name':'ipad','category_id':3},
-    {'id':6,'name':'samsung tab','category_id':3}
-]
+# productData=[
+#     {'id':1,'name':'dell','category_id':1},
+#     {'id':2,'name':'mac','category_id':1},
+#     {'id':3,'name':'iphone','category_id':2},
+#     {'id':4,'name':'samsung','category_id':2},
+#     {'id':5,'name':'ipad','category_id':3},
+#     {'id':6,'name':'samsung tab','category_id':3}
+# ]
 
-for category in categoryData:
-    print(f"========={category['name']}=========")
-    for product in productData:
-        if category['id']==product['category_id']:
-            print('\t',product['name'])
+# for category in categoryData:
+#     print(f"========={category['name']}=========")
+#     for product in productData:
+#         if category['id']==product['category_id']:
+#             print('\t',product['name'])
 categories = [
     {'id': 1, 'name': 'Classic'},
     {'id': 2, 'name': 'Dirt'},
