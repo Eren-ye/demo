@@ -1,0 +1,2 @@
+Selected:SAMSUNG,Delivery Charges:1000,Cover: PLASTIC,Location:KTM,Total price:355384.6153846154 
+Selected:Iphone,Delivery Charges:RS2000,Cover:PAPER,Location:KTM,Total price:16153.846153846154 
